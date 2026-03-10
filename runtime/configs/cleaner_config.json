@@ -1,0 +1,29 @@
+{
+  "spec": "v0.5.0",
+  "version": "1.0.0",
+  "max_log_lines": 400,
+  "raw_backup": true,
+  "yaml_fields": {
+    "session_id":      true,
+    "year_month":      true,
+    "date":            true,
+    "time":            true,
+    "source":          true,
+    "model":           true,
+    "input_type":      true,
+    "pipeline_stage":  true,
+    "session_topic":   true,
+    "prompts_used":    true,
+    "tags":            true,
+    "message_length":  true,
+    "response_length": true,
+    "prompt_count":    true,
+    "note":            false
+  },
+  "intelligence": {
+    "suggest_tags":       true,
+    "track_cooccurrence": true,
+    "update_related":     true,
+    "cooccur_threshold":  3
+  }
+}

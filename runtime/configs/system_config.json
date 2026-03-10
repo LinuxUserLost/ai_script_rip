@@ -1,0 +1,49 @@
+{
+  "spec": "v0.5.0",
+  "version": "1.0.0",
+  "vault_root": "../ai-vault",
+  "vault_folders": {
+    "indexes": "000_indexes",
+    "topics": "001_topics",
+    "sessions": "002_sessions",
+    "raw": "003_raw",
+    "prompts": "004_prompts",
+    "tags": "005_tags",
+    "knowledge": "006_knowledge",
+    "guides": "007_guides",
+    "agents": "008_agents",
+    "tutorials": "009_tutorials",
+    "bundles": "bundles"
+  },
+  "session_template": {
+    "prompt_field": "prompts",
+    "list_prefix": "* ",
+    "empty_slots": 2,
+    "ai_markers": true,
+    "topic_block": true,
+    "include_instructions": true
+  },
+  "prompt_parsing": {
+    "alias_prefixes": [
+      "* ",
+      "- "
+    ],
+    "case_sensitive": false,
+    "strip_whitespace": true
+  },
+  "composition": {
+    "type_order": [
+      "task",
+      "workflow",
+      "style",
+      "format",
+      "constraint"
+    ],
+    "section_headers": true
+  },
+  "warnings": {
+    "enabled":      true,
+    "block_on_red": false,
+    "log_warnings": true
+  }
+}
